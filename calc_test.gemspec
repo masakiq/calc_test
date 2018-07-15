@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Simple calculate test}
   spec.description   = %q{Simple calculate test}
-  spec.homepage      = "https://no-technology-no-life.com"
+  spec.homepage      = "https://github.com/maeda1150/calc_test"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
