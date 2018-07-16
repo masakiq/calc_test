@@ -4,7 +4,7 @@ require 'ffi'
 module CalcTest
   extend FFI::Library
 
-  if File.exist?('calc_test/calc_test.bundle')
+  if File.exist?(File.expand_path('calc_test/calc_test.bundle', File.dirname(__FILE__)))
     ffi_lib File.expand_path('calc_test/calc_test.bundle', File.dirname(__FILE__))
   else
     ffi_lib File.expand_path('../ext/calc_test/calc_test.bundle', File.dirname(__FILE__))
